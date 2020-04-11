@@ -1,0 +1,28 @@
+package org.mainapp;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("/view/mainapp.fxml"));
+        primaryStage.setTitle("Main app");
+        Scene scene = new Scene(root);
+        primaryStage.setScene(scene);
+        primaryStage.setMaxHeight(150);
+        primaryStage.setMaxWidth(250);
+        primaryStage.setMinHeight(150);
+        primaryStage.setMinWidth(250);
+        primaryStage.show();
+    }
+
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="119.0" prefWidth="254.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.mainapp.Controller">
+    <children>
+        <Button layoutX="14.0" layoutY="14.0" fx:id="ButtonGenerateFantasyNamesGenerator" onAction="#ButtonGenerateFantasyNamesGenerator"
+                mnemonicParsing="false" prefHeight="40.0" prefWidth="217.0" text="Fantasy NamesGenerator Button">
+            <font>
+                <Font name="Century" size="25.0"/>
+            </font>
+        </Button>
+        <Button layoutX="14.0" layoutY="60.0" fx:id="ButtonGenerateJapanesNamesGenerator" onAction="#ButtonGenerateJapanesNamesGenerator"
+                mnemonicParsing="false" prefHeight="40.0" prefWidth="217.0" text="Japanes Names Generator">
+            <font>
+                <Font name="Century" size="25.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
